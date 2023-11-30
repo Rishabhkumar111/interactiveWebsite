@@ -1,0 +1,247 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: General Sans;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    background-color: black;
+}
+.bounding{
+    width: fit-content;
+    overflow: hidden;
+}
+.bounding .boundingelem{
+    transform: translateY(100%);
+}
+.bounding .boundingelemRev{
+    transform: translateY(-100%);
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    color: white;
+    position: relative;
+}
+.nav{
+    width: 100%;
+    height: 90px;
+    padding: 1.5em 2.78vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+.nav h4{
+    font-size: 16px;
+}
+.heading{
+    margin-top: 96px;
+    text-transform: uppercase;
+}
+.heading h1{
+    font-size: 10.45vw;
+    font-weight: 200;
+    font-family: "General Sans Medium";
+    line-height: 0.85;
+    opacity: 0.65;
+    margin-left: 3vw;
+}
+#secondH1{
+    margin-left:14vw;
+}
+.blocktext{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.blocktext h5{
+    text-align: right;
+    margin-top: 18px;
+    font-size: 16px;
+}
+.smallHeading{
+    margin-top: 100px;
+    padding-right: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.smallHeading h5{
+    text-align: right;
+    font-size: 1.1vw;
+    padding-top: 0.9vw;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.homeFooter{
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+    padding: 1.1vw 2.9vw;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+.homeFooter a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+.icon{
+    display: flex;
+}
+.circle{
+    width: 25px;
+    height: 25px;
+    margin: 0.2vw;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a5a5a5;
+    color: black;
+    font-weight: 600;
+}
+.second{
+    padding-right: 11vw;
+    padding-left: 3vw;
+    width: 100%;
+    height: 100vh;
+    padding-top: 200px;
+    color: white;
+    text-transform: uppercase;
+    background-color: black;
+}
+.elem{
+    width: 100%;
+    border-top: 1px solid #888;
+    border-bottom: 1px solid #888;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5vw 0.1vw;
+    position: relative;
+}
+.elem h1{
+    font-size: 7.7vw;
+    font-weight: 500;
+    opacity: 0.6;
+}
+.elem h5{
+    font-size: 17px;
+    font-weight: 200;
+}
+.elem img{
+    height: 140%;
+    position: absolute;
+    z-index: 99;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+.about{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 15vw 10vw;
+    gap: 50px;
+    padding-left: 34vw;
+    
+}
+.about img{
+    width: 250px;
+}
+.aboutText{
+    width: 30rem;
+}
+.aboutText h4{
+    opacity: 0.7;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.aboutText p{
+    font-size: 1.32vw;
+    margin-bottom: 30px;
+}
+.aboutText a{
+    border: 1px solid #fff;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 100px;
+    color: white;
+    font-size: 16px;
+}
+.subscribe{
+    width: 100%;
+    color: white;
+    text-transform: uppercase;
+    padding-left: 3vw;
+    background-color: black;
+}
+.subscribe h5{
+    padding-bottom: 0.6vw;
+    opacity: 0.7;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 1.3vw 3vw;
+    margin-top: 9vw;
+}
+.footerLeft{
+    display: flex;
+    gap: 2vw;
+}
+
+.footerRight{
+    display: flex;
+    gap: 3.3vw;
+    text-transform: uppercase;
+    padding-right: 1vw;
+}
+.footerLeft h5{
+    font-size: 1.2vw;
+}
+.footerRight a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+.miniCircle{
+    height: 12px;
+    width: 12px;
+    border-radius: 20px;
+    background-color: white;
+    position: absolute;
+    z-index: 999;
+    transition: all cubic-bezier(0.16, 1, 0.22, 1) 0.6s;
+    pointer-events: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.miniCircle h5{
+    font-size: 3.5px;
+    font-weight: lighter;
+    opacity: 0;
+}
